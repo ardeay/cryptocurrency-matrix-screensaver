@@ -34,7 +34,7 @@
             console.log("fetching: %s", fetchSize);
 
             $.ajax({
-                url: 'https://github-matrix.herokuapp.com/fetch',
+                url: 'https://api.coinmarketcap.com/v1/ticker/?start=0&limit=300',
                 cache: false,
                 data: {fetchSize: fetchSize}
             }).done(function (result) {
@@ -79,10 +79,10 @@
     };
 
     var Drop = function (commit) {
-        var text = '@' + commit.user + commit.code;
+        var text = commit.name + ' _ ' + commit.symbol +  '  _ Price: $' + commit.price_usd + ' _ Market Cap: $' + commit.market_cap_usd;
 
         this.draw = function (ctx, posX, posY, y) {
-            if (y < commit.user.length + 1) {
+            if (y < commit.name.length + 1) {
                 ctx.shadowColor = '#FFF';
                 ctx.fillStyle = "#FFF";
             } else {
