@@ -79,7 +79,7 @@
     };
 
     var Drop = function (commit) {
-        var text = commit.name + ' _ ' + commit.symbol +  '  _ Price: $' + commit.price_usd + ' _ Market Cap: $' + commit.market_cap_usd;
+        var text = commit.name + '_ ' + commit.symbol +  '_ Price: $' + commit.price_usd + '_ Market Cap: $' + commit.market_cap_usd;
 
         this.draw = function (ctx, posX, posY, y) {
             if (y < commit.name.length + 1) {
