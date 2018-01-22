@@ -1,19 +1,9 @@
-The GitHub Matrix Sceensaver
+The CryptoCurrency Matrix Sceensaver
 ====================
 
-<blockquote>The latest commits from GitHub visualized in a Matrix-style animation.</blockquote>
+<blockquote>The latest prices from https://coinmarketcap.com/ visualized in a Matrix-style animation. It leverages their open api get endpoint: https://api.coinmarketcap.com/v1/ticker/?start=0&limit=300</blockquote>
 
-<img src="http://winterbe.com/image/matrix-has-you.gif">
-
-The GitHub Matrix Screensaver for Mac OSX shows a constant stream of recent commits from GitHub. It's based on my [GitHub Matrix](https://github.com/winterbe/github-matrix) webapp project and on Tom Robinsons [WebSaver](https://github.com/tlrobinson/WebSaver) project (kudos).
-
-### http://winterbe.com/projects/github-matrix/
-
-<img src="http://winterbe.com/image/matrix.png">
-
-For more infos about the GitHub Matrix see this repository:
-
-### https://github.com/winterbe/github-matrix
+This screensaver is a fork from: https://github.com/winterbe/github-matrix
 
 ## Install (Mac OSX only)
 
@@ -24,9 +14,6 @@ For more infos about the GitHub Matrix see this repository:
 
 Open the Mac OSX preferences, choose Screensaver, right click on `Matrix` and choose delete.
 
-## Contribute
-
-Feel free to [fork](https://github.com/winterbe/github-matrix-screensaver/fork) this project and send me pull requests. You can also send me feedback via [Twitter](https://twitter.com/benontherun) or by [opening an issue](https://github.com/winterbe/github-matrix-screensaver/issues).
 
 ## Binary License
 
